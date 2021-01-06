@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+}
+#navbar{
+    height: 100px;
+}
+#navbar ul li{
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    margin:auto; 
+}
+#navbar a{
+    text-decoration: none;
+    color: black;
+}
+#navbar ul{
+    float: right;
+    margin-right:100px;
+}
+section{
+    height: 500px;
+}
+h1{
+    font-size: 45px;
+    color: #363958;
+    font-weight: 700;
+}
+h2{
+    color: #363958;
+}
+h3{
+    color: #363958;
+}
+.half-content{
+    width: 40%;
+    padding-left: 4%;
+    margin-left: 4%;
+    float: left;
+}
+.half-content a{
+text-decoration: none;
+padding: 10px 25px;
+background-image: linear-gradient(45deg,lightSalmon,tomato);
+border-radius: 5px;
+color: white;
+}
+img{
+    width: 75%;
+}
+#fourth-section{
+    background-color: #F8F9FC;
+    margin-bottom: 30px;
+    height: 600px;
+}
+
+.heading{
+    padding:30px 0;
+    text-align: center;
+}
+.single-img{
+    box-shadow: 1px 1px 3px grey;
+    border-radius: 10px;
+    width: 23%;
+    padding: 2%;
+    margin-left: 4%;
+    float: left;
+    height: 340px;
+}
+.single-img img{
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    margin-right: 30px;
+}
+.banner a{
+    text-decoration: none;
+    padding: 10px 25px;
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    border-radius: 5px;
+    color: white;
+}
+.banner{
+    background-image: url(./images/Group.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 60%;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 25px;
+}
+#fifth-section{
+    padding: 30px;
+    height: 250px;
+}
+input{
+    padding: 15px;
+    margin: 10px;
+    width: 20%;
+    border-color: tomato;
+    border-radius: 5px;
+}
+#contact-section{
+    background-color: #F8F9FC;
+}
+textarea{
+    margin: 20px;
+    justify-content: center;
+    margin-left: 360px;
+    width: 45%;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: tomato;
+}
+button{
+    background-image: linear-gradient(45deg,lightSalmon,tomato);
+    padding: 10px 20px;
+    color: white;
+    margin-right: 550px;
+    border: none;
+}
